@@ -91,6 +91,16 @@ a:visited{
   color: #7a0014;
 }
 
+.info{
+  padding: 0.8rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  width: 50rem;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+
 .area{
  text-align: center;
  font-size: 1.8rem;
@@ -100,6 +110,7 @@ a:visited{
  font-weight: bolder;
  color: #7a0014;
 }
+
 .especializacao{
   display: flex;
   margin: 0.8rem;
@@ -127,16 +138,6 @@ a:visited{
  font-weight: bolder;
 }
 
-.info{
-  padding: 0.8rem;
-  border: none;
-  outline: none;
-  font-size: 1.5rem;
-  width: 50rem;
-  border-radius: 2rem;
-  margin-left: 2rem;
-}
-
 .button{
   background-color: #cc0022;
   border: none;
@@ -149,4 +150,9 @@ a:visited{
   cursor: pointer;
   color: whitesmoke;
   font-size: 1.3rem;
+}
+
+.button:hover{
+  transform: scale(1.1);
+  transition: 500ms cubic-bezier(0.42, 0, 0.47, 2.74);
 }
